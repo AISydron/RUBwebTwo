@@ -1,0 +1,970 @@
+<html lang="de" class="js">
+<head>
+  <style>
+    body {transition: opacity ease-in 0.2s; }
+    body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; }
+  </style>
+
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 10.0, user-scalable = yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta data-embetty-server="https://d8-dev-0001.rub.de/embettygo">
+  <meta charset="utf-8">
+  <link rel="canonical" href="/web-cd/standardseiten">
+  <link rel="shortlink" href="/node/5934">
+  <title>Standardseiten - Newsportal - Ruhr-Universität Bochum</title>
+  <link rel="shortcut icon" href="https://news.rub.de/sites/all/themes/rub_news/favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="https://news.rub.de/sites/all/themes/rub_news/favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-180x180.png">
+
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_luGOdbHUKTq5rw97Low9wcjWRKsAJta3YTCddgP17qg.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_dzSGzF4eL4jKnr7jRyNddJg8YFbsh4XX95lDN2VxRb8.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_8yw-RRgWNd8uOhk1DpvW_0HNJoGPvZm4N5W3xPl2gG4.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_XDi3lzI4bFDU0VUyQkZ614zP325idrS4-B6RGdNAeek.css" media="all">
+
+  <script type="text/javascript" defer="" async="" src="https://vmrz0088.vm.rub.de/rub-zaehler/piwik.js"></script><script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+  <script src="https://news.rub.de/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+  <script src="https://news.rub.de/misc/jquery.once.js?v=1.2"></script>
+  <script src="https://news.rub.de/misc/drupal.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+  <script src="https://news.rub.de/sites/default/files/languages/de_RGcVjyj6_ry5AAHackNGlWJQxaC8TyFTw2j_C6Ut5po.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/modules/matomo/matomo.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/modules/radioactivity/js/radioactivity.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/modules/field_group/field_group.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/libraries/flexslider/jquery.flexslider-min.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/flexslider-ini.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/embetty.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/js-cookie.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/main.js?q8rn2n"></script>
+  <script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"rub_news","theme_token":"5jaMsJaSo0OcOC_LrQTMHfBwI5K4ffKG6uWkNBpq47M","js":{"0":1,"sites\/all\/libraries\/shariff\/build\/shariff.min.js":1,"\/\/code.jquery.com\/jquery-1.10.2.min.js":1,"1":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"public:\/\/languages\/de_RGcVjyj6_ry5AAHackNGlWJQxaC8TyFTw2j_C6Ut5po.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/modules\/radioactivity\/js\/radioactivity.js":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/themes\/rub_news\/js\/flexslider-ini.js":1,"sites\/all\/themes\/rub_news\/js\/embetty.js":1,"sites\/all\/themes\/rub_news\/js\/js-cookie.js":1,"sites\/all\/themes\/rub_news\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/webform_confirm_email\/webform_confirm_email.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/radioactivity\/css\/radioactivity.css":1,"sites\/all\/libraries\/shariff\/build\/shariff.complete.css":1,"sites\/all\/modules\/ds\/layouts\/ds_2col\/ds_2col.css":1,"sites\/all\/themes\/rub_news\/system.menus.css":1,"sites\/all\/themes\/rub_news\/system.messages.css":1,"sites\/all\/themes\/rub_news\/system.theme.css":1,"sites\/all\/themes\/rub_news\/css\/05-admin.css":1,"sites\/all\/themes\/rub_news\/css\/10-structure.css":1,"sites\/all\/themes\/rub_news\/css\/12-buttons-label-pager.css":1,"sites\/all\/themes\/rub_news\/css\/14-filter.css":1,"sites\/all\/themes\/rub_news\/css\/16-webforms.css.less":1,"sites\/all\/themes\/rub_news\/css\/18-forms.css":1,"sites\/all\/themes\/rub_news\/css\/20-main-menu.css":1,"sites\/all\/themes\/rub_news\/css\/24-sub-menu.css":1,"sites\/all\/themes\/rub_news\/css\/26-meta-menu.css":1,"sites\/all\/themes\/rub_news\/css\/28-footer.css":1,"sites\/all\/themes\/rub_news\/css\/30-teaser-a.css":1,"sites\/all\/themes\/rub_news\/css\/32-teaser-a-slider.css":1,"sites\/all\/themes\/rub_news\/css\/34-teaser-b.css":1,"sites\/all\/themes\/rub_news\/css\/36-teaser-c.css":1,"sites\/all\/themes\/rub_news\/css\/38-teaser-d.css":1,"sites\/all\/themes\/rub_news\/css\/40-teaser-e.css":1,"sites\/all\/themes\/rub_news\/css\/42-teaser-box-triple.css":1,"sites\/all\/themes\/rub_news\/css\/44-teaser-box-double.css":1,"sites\/all\/themes\/rub_news\/css\/60-node-article.css":1,"sites\/all\/themes\/rub_news\/css\/62-node-article-left.css":1,"sites\/all\/themes\/rub_news\/css\/64-node-article-right.css":1,"sites\/all\/themes\/rub_news\/css\/66-node-article-flex.css":1,"sites\/all\/themes\/rub_news\/css\/68-node-article-flex-downloads.css":1,"sites\/all\/themes\/rub_news\/css\/70-node-serie-dossier-galerie-medien.css":1,"sites\/all\/themes\/rub_news\/css\/72-mensa.css":1,"sites\/all\/themes\/rub_news\/css\/74-redaktion-mitglieder.css":1,"sites\/all\/themes\/rub_news\/css\/76-user-profile.css":1,"sites\/all\/themes\/rub_news\/css\/80-node-standard.css":1,"sites\/all\/themes\/rub_news\/css\/82-node-standard-standard-left.css":1,"sites\/all\/themes\/rub_news\/css\/86-misc.css":1,"sites\/all\/themes\/rub_news\/css\/88-misc-ex-strat.css":1,"sites\/all\/themes\/rub_news\/css\/92-graceful-degradation.css":1,"sites\/all\/themes\/rub_news\/css\/99-dev.css":1,"sites\/all\/themes\/rub_news\/css\/100-web-cd.css":1,"sites\/all\/themes\/rub_news\/css\/user.css":1,"public:\/\/fontyourface\/local_fonts\/RUB_Nepo_Icons-normal-normal\/stylesheet.css":1}},"matomo":{"trackMailto":1},"radioactivity":{"emitters":{"emitDefault":[{"accuracy":"100","bundle":"standard","energy":10,"entity_id":"5934","entity_type":"node","field_name":"field_radioactivity","language":"und","storage":"File","type":"none","checksum":"676a2bcf1de26fc61904e9d28411c805"}]},"config":{"emitPath":"\/sites\/all\/modules\/radioactivity\/emit.php","fpEnabled":1,"fpTimeout":"5"}},"field_group":{"div":"full"}});</script>
+
+  </head>
+
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5934 node-type-standard i18n-de section-web-cd role-anonymous-user web-cd-page" style="">
+    <div class="https://news.rub.de" id="base-url" style="display: none; visibility: hidden;"></div>
+      <p id="skip-link">
+        <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+      </p>
+
+
+  <!--NavBarHeader-->
+  <div class="https://news.rub.de" id="base-url" style="display: none; visibility: hidden;"></div>
+  <p id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+  </p>
+  <div id="header-wrapper">
+    <div id="header-inner-wrapper">
+      <div id="header-left">
+        <div id="header-left-inner">
+          <a href="http://www.ruhr-uni-bochum.de"><img class="rub-logo" src="https://news.rub.de/sites/all/themes/rub_news/logo.png" alt="Logo RUB"></a>
+        </div>
+      </div>
+      <div id="header-center">
+        <div class="region region-main-menu">
+          <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
+            <ul class="menu">
+              <li class="menu__item is-leaf leaf"><a href="/" class="menu__link">News</a></li>
+              <li class="menu__item is-leaf leaf"><a href="http://www.ruhr-uni-bochum.de/studium" class="menu__link">Kontakt</a></li>
+              <li class="menu__item is-leaf leaf"><a href="http://www.ruhr-uni-bochum.de/forschung/" class="menu__link">Mitglieder</a></li>
+              <li class="menu__item is-leaf leaf"><a href="https://transfer.ruhr-uni-bochum.de/de/transfer-der-rub" class="menu__link">Lehre und Betreuung</a></li>
+              <li class="menu__item is-leaf leaf"><a href="/" class="menu__link">Forschung</a></li>
+              <li class="menu__item is-leaf leaf"><a href="http://www.ruhr-uni-bochum.de/universitaet/" class="menu__link">Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <a id="nav-burger" href="#"></a>
+      </div>
+      <div id="header-right">&nbsp;</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!--ENDE NavBarHeader-->
+
+
+  <!--SideNavBar-->
+  <div id="nav-bg"></div>
+  <div id="subnav-bg"></div>
+  <div id="meta-menu-wrapper">
+    <div id="sub-menu-and-content-wrapper">
+      <noscript>
+        <div id="no-script-wrapper">
+          <div id="no-script-inner">
+            <span>Um diese Webseite vollumfänglich nutzen zu können, benötigen Sie JavaScript.</span><br />
+            <a href="http://www.enable-javascript.com/de/" target="_blank">Hier finden Sie eine Anleitung, wie Sie JavaScript in Ihrem Browser einschalten.</a>
+          </div>
+        </div>
+      </noscript>
+      <div id="sub-menu">
+        <div id="sub-menu-inner">
+          <div id="menu-button">MENÜ</div>
+            <div id="wcd-logo-menu-wrapper">
+              <img id="wcd-logo-menu" src="../../Pictures/logo_neurophys.png" alt="Logo">
+            </div>
+            <div class="region region-sub-menu">
+              <div id="block-menu-menu-beispielmen-" class="block block-menu first last odd" role="navigation">
+                <ul class="menu">
+                  <li class="menu__item is-leaf is-active-trail first leaf active-trail"><a href="/web-cd/einleitung" class="menu__link is-active-trail active-trail active">News</a></li>
+                  <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+                  <li class="menu__item is-expanded expanded beispiel-items"><a href="http://#" class="menu__link beispiel-items">Kontakt</a>
+                    <ul class="menu">
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Sekretariat</a>
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Anreise</a>
+                    </ul>
+                  </li>
+                  <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+                  <li class="menu__item is-expanded expanded beispiel-items"><a href="http://#" class="menu__link beispiel-items">Mitglieder</a>
+                    <ul class="menu">
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">PostDocs</a>
+                    </ul>
+                  </li>
+                  <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+                  <li class="menu__item is-expanded expanded beispiel-items"><a href="http://#" class="menu__link beispiel-items">Lehre und Betreuung</a>
+                    <ul class="menu">
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Übersicht</a>
+                        <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">MD/PhD/MSc/BSc Studenten</a>
+                          <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Gast Studierende</a>
+                    </ul>
+                  </li>
+                  <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+                  <li class="menu__item is-expanded expanded beispiel-items"><a href="http://#" class="menu__link beispiel-items">Forschung</a>
+                    <ul class="menu">
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Manahan-Vaughan Lab</a>
+                        <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Funke Lab</a>
+                          <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Eysel Lab</a>
+                    </ul>
+                  </li>
+                  <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+                  <li class="menu__item is-expanded expanded beispiel-items"><a href="http://#" class="menu__link beispiel-items">Service</a>
+                    <ul class="menu">
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Offene Stellen</a>
+                        <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Veröffentlichungen</a>
+                          <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Links</a>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        <a id="subnav-arrow" href="#"></a>
+        </div>
+      </div>
+
+  <!--ENDE SideNavBar-->
+
+
+  <div id="content">
+    <div id="content-inner">
+      <div id="sender">
+        <div id="sender-inner">Anreise</div>
+      </div>
+      <div id="messages-wrapper"></div>
+        <h1>Newsportal - Ruhr-Universität Bochum</h1>
+      <a id="main-content"></a>
+
+      <div class="content-inner-inner-wrapper">
+
+      <div class="ds-2col node node-standard view-mode-full clearfix web-cd-page node-5934">
+        <div class="group-left">
+          <div class="group-left-inner web-cd">
+
+            <h1>Veröffentlichungen Prof. Dr. Denise Manahan-Vaughan</h1>
+        
+            <div id="list-navigator" class="list-group" style="width: 10rem; float: left; margin-right: 1%;">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">2016</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">2015</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">2014</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">2013</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">2012</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-6">2011</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-7">2010</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-8">2009</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-9">2008</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-10">2007</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-11">2006</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-12">2005</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-13">2004</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-14">2003</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-15">2002</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-16">2001</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-17">2000</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-18">1999</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-19">1998</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-20">1997</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-21">1996</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-22">1995</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-23">1994</a>
+            </div>
+            <br><br><br><br><br><br>
+            <div data-spy="scroll" data-target="#list-navigator" data-offset="0" class="scrollspy" >
+            <h4 id="list-item-1">2016</h4>
+            <p>
+                <div class="list-group">
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27395786" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Neuropharmacology</h5>
+                        <small>2016 Jul 6</small>
+                        </div>
+                        <p class="mb-1">
+                            Metabotropic glutamate receptor, mGlu5, regulates hippocampal synaptic plasticity and is required for tetanisation-triggered changes in theta and gamma oscillations<br>
+                            pii: S0028-3908(16)30244-1. doi: 10.1016/j.neuropharm.2016.06.004. [Epub ahead of print]
+                        </p>
+                        <small>Bikbaev A, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27378869" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Behav Neurosci</h5>
+                        <small class="text-muted">2016 Jun 13</small>
+                        </div>
+                        <p class="mb-1">
+                            Editorial: Extinction Learning from a Mechanistic and Systems Perspective<br>
+                            10:115. doi: 10.3389/fnbeh.2016.00115. eCollection 2016. No abstract available.       
+                        </p>
+                        <small class="text-muted">Manahan-Vaughan D, Wolf OT, Güntürkün O.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27317942" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Neurobiol Learn Mem</h5>
+                        <small class="text-muted">2016 Jun 15</small>
+                        </div>
+                        <p class="mb-1">
+                            The serotonergic 5-HT4 receptor: A unique modulator of hippocampal synaptic information processing and cognition<br>
+                            pii: S1074-7427(16)30089-2. doi: 10.1016/j.nlm.2016.06.014. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Hagena H, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27267685" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuropharmacology</h5>
+                            <small class="text-muted">2016 Jun 4</small>
+                        </div>
+                        <p class="mb-1">
+                            Metabotropic glutamate receptor, mGlu5, mediates enhancements of hippocampal long-term potentiation after environmental enrichment in young and old mice<br>
+                            pii: S0028-3908(16)30243-X. doi: 10.1016/j.neuropharm.2016.06.003. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Buschler A, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27096319" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Immunity</h5>
+                            <small class="text-muted">2016 Apr 19</small>
+                        </div>
+                        <p class="mb-1">
+                            Brain Endothelial- and Epithelial-Specific Interferon Receptor Chain 1 Drives Virus-Induced Sickness Behavior and Cognitive Impairment<br>
+                            44(4):901-12. doi: 10.1016/j.immuni.2016.04.005
+                        </p>
+                        <small class="text-muted">Blank T, Detje CN, Spieß A, Hagemeyer N, Brendecke SM, Wolfart J, Staszewski O, Zöller T, Papageorgiou I, Schneider J, Paricio-Montesinos R, Eisel UL, Manahan-Vaughan D, Jansen S, Lienenklaus S, Lu B, Imai Y, Müller M, Goelz SE, Baker DP, Schwaninger M, Kann O, Heikenwalder M, Kalinke U, Prinz M.</small>
+                    </a> 
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27055771" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuropharmacology</h5>
+                            <small class="text-muted">2016 Apr 4</small>
+                        </div>
+                        <p class="mb-1">
+                            Hippocampal long-term depression is facilitated by the acquisition and updating of memory of spatial auditory content and requires mGlu5 activation<br>
+                            pii: S0028-3908(16)30061-2. doi: 10.1016/j.neuropharm.2016.02.026. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Dietz B, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/26834599" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Front Behav Neurosci</h5>
+                            <small class="text-muted">2016 Jan 21</small>
+                        </div>
+                        <p class="mb-1">
+                            Involvement of Dopamine D1/D5 and D2 Receptors in Context-Dependent Extinction Learning and Memory Reinstatement<br>
+                            9:372. doi: 10.3389/fnbeh.2015.00372. eCollection 2015
+                        </p>
+                        <small class="text-muted">André MA, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/26804338" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Cereb Cortex</h5>
+                            <small class="text-muted">2016 Apr</small>
+                        </div>
+                        <p class="mb-1">
+                                β-Adrenergic Control of Hippocampal Function: Subserving the Choreography of Synaptic Information Storage and Memory<br>
+                                1349-64. doi: 10.1093/cercor/bhv330. Epub 2016 Jan 24
+                        </p>
+                        <small class="text-muted">Hagena H, Hansen N, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/26800645" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2016 Jul</small>
+                        </div>
+                        <p class="mb-1">
+                            The 5-hydroxytryptamine4 receptor enables differentiation of informational content and encoding in the hippocampus<br>
+                            26(7):875-91. doi: 10.1002/hipo.22569. Epub 2016 Feb 17
+                        </p>
+                        <small class="text-muted">Twarkowski H, Hagena H, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/26662461" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2016 Jun</small>
+                        </div>
+                        <p class="mb-1">
+                            The requirement of BDNF for hippocampal synaptic plasticity is experience-dependent<br>
+                            26(6):739-51. doi: 10.1002/hipo.22555. Epub 2016 Jan 19.
+                        </p>
+                        <small class="text-muted">Aarse J, Herlitze S, Manahan-Vaughan D.</small>
+                    </a>                
+                </div> 
+            </p>
+            <h4 id="list-item-2">2015</h4>
+            <p>
+                <div class="list-group">
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/26074793" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Behav Neurosci</h5>
+                        <small>2015 May 27</small>
+                        </div>
+                        <p class="mb-1">
+                            Beta-adrenergic receptors support attention to extinction learning that occurs in the absence, but not the presence, of a context change<br>
+                            9:125. doi: 10.3389/fnbeh.2015.00125. eCollection 2015
+                        </p>
+                        <small>André MA, Wolf OT, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/26042007" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Behav Neurosci</h5>
+                        <small class="text-muted">2015 May 20</small>
+                        </div>
+                        <p class="mb-1">
+                            Altered neuronal excitability underlies impaired hippocampal function in an animal model of psychosis<br>
+                            9:117. doi: 10.3389/fnbeh.2015.00117. eCollection 2015       
+                        </p>
+                        <small class="text-muted">Grüter T, Wiescholleck V, Dubovyk V, Aliane V, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/25999827" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Behav Neurosci</h5>
+                        <small class="text-muted">2015 May 6</small>
+                        </div>
+                        <p class="mb-1">
+                            Acute intracerebral treatment with amyloid-beta (1-42) alters the profile of neuronal oscillations that accompany LTP induction and results in impaired LTP in freely behaving rats<br>
+                            9:103. doi: 10.3389/fnbeh.2015.00103. eCollection 2015
+                        </p>
+                        <small class="text-muted">Kalweit AN, Yang H, Colitti-Klausnitzer J, Fülöp L, Bozsó Z, Penke B, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="https://www.ncbi.nlm.nih.gov/pubmed/25934042" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuroscience</h5>
+                            <small class="text-muted">2015 Nov 19</small>
+                        </div>
+                        <p class="mb-1">
+                            Ras does not contribute to the facilitation of hippocampal synaptic plasticity enabled by environmental enrichment<br>
+                            309:214-23. doi: 10.1016/j.neuroscience.2015.04.052. Epub 2015 Apr 29
+                        </p>
+                        <small class="text-muted">Novkovic T, Heumann R, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25810529" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">J Neurosci</h5>
+                            <small class="text-muted">2015 Mar 25</small>
+                        </div>
+                        <p class="mb-1">
+                            mGlu5 Acts As a Switch for Opposing Forms of Synaptic Plasticity at Mossy Fiber-CA3 and Commissural Associational-CA3 Synapses<br>
+                            35(12):4999-5006. doi: 10.1523/JNEUROSCI.3417-14.2015
+                        </p>
+                        <small class="text-muted">Hagena H, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25795599" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuroscience</h5>
+                            <small class="text-muted">2015 Mar 17</small>
+                        </div>
+                        <p class="mb-1">
+                            Hippocampal function is compromised in an animal model of multiple sclerosis<br>
+                            pii: S0306-4522(15)00223-7. doi: 10.1016/j.neuroscience.2015.03.008. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Novkovic T, Shchyglo O, Gold R, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25791230" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuroscience</h5>
+                            <small class="text-muted">2015 Mar 17</small>
+                        </div>
+                        <p class="mb-1">
+                            Synaptic strength at the temporoammonic input to the hippocampal CA1 region in vivo is regulated by NMDA receptors, metabotropic glutamate receptors and voltage-gated calcium channels<br>
+                            pii: S0306-4522(15)00236-5. doi: 10.1016/j.neuroscience.2015.03.014. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Aksoy-Aksel A, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25727388" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2015 Feb 27</small>
+                        </div>
+                        <p class="mb-1">
+                            Hippocampal long-term potentiation that is elicited by perforant path stimulation or that occurs in conjunction with spatial learning is tightly controlled by beta-adrenoreceptors and the locus coeruleus<br>
+                            doi: 10.1002/hipo.22436. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Hansen N, Manahan-Vaughan D.</small>
+                    </a>                
+                </div>
+            </p>
+            <h4 id="list-item-3">2014</h4>
+            <p>
+                <div class="list-group">
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25520616" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Mol Neurosci.</h5>
+                        <small>2014 Dec 1</small>
+                        </div>
+                        <p class="mb-1">
+                            Regulation of hippocampal synaptic plasticity thresholds and changes in exploratory and learning behavior in dominant negative NPR-B mutant rats<br>
+                            7:95. doi: 10.3389/fnmol.2014.00095. eCollection 2014
+                        </p>
+                        <small>Barmashenko G, Buttgereit J, Herring N, Bader M, Ozcelik C, Manahan-Vaughan D, Braunewell KH.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25160592" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Hippocampus</h5>
+                        <small class="text-muted">2015 Feb</small>
+                        </div>
+                        <p class="mb-1">
+                            The metabotropic glutamate receptor, mGlu5, is required for extinction learning that occurs in the absence of a context change<br>
+                            25(2):149-58. doi: 10.1002/hipo.22359. Epub 2014 Sep 30       
+                        </p>
+                        <small class="text-muted">André MA, Güntürkün O, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25144735" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">PLoS One</h5>
+                        <small class="text-muted">2014 Aug 21</small>
+                        </div>
+                        <p class="mb-1">
+                            Optogenetic modulation and multi-electrode analysis of cerebellar networks in vivo<br>
+                            9(8):e105589. doi: 10.1371/journal.pone.0105589. eCollection 2014
+                        </p>
+                        <small class="text-muted">Kruse W, Krause M, Aarse J, Mark MD, Manahan-Vaughan D, Herlitze S.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25112659" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2015 Jan</small>
+                        </div>
+                        <p class="mb-1">
+                            BDNF contributes to the facilitation of hippocampal synaptic plasticity and learning enabled by environmental enrichment<br>
+                            25(1):1-15. doi: 10.1002/hipo.22342. Epub 2014 Aug 28
+                        </p>
+                        <small class="text-muted">Novkovic T, Mittmann T, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25112177" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2014 Dec</small>
+                        </div>
+                        <p class="mb-1">
+                            Antagonism of D1/D5 receptors prevents long-term depression (LTD) and learning-facilitated LTD at the perforant path-dentate gyrus synapse in freely behaving rats<br>
+                            24(12):1615-22. doi: 10.1002/hipo.22340. Epub 2014 Aug 27.
+                        </p>
+                        <small class="text-muted">Wiescholleck V, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25009477" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Front Behav Neurosci</h5>
+                            <small class="text-muted">2014 Jun 24</small>
+                        </div>
+                        <p class="mb-1">
+                            Spatial representations of place cells in darkness are supported by path integration and border information<br>
+                            8:222. doi: 10.3389/fnbeh.2014.00222. eCollection 2014
+                        </p>
+                        <small class="text-muted">Zhang S, Schönfeld F, Wiskott L, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24910241" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2014 Nov</small>
+                        </div>
+                        <p class="mb-1">
+                            Place field stability requires the metabotropic glutamate receptor, mGlu5<br>
+                            24(11):1330-40. doi: 10.1002/hipo.22314. Epub 2014 Jun 25.
+                        </p>
+                        <small class="text-muted">Zhang S, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24480420" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Behav Brain Res</h5>
+                            <small class="text-muted">2015 May 15</small>
+                        </div>
+                        <p class="mb-1">
+                            Role of inhibitory autophosphorylation of calcium/calmodulin-dependent kinase II (αCAMKII) in persistent (>24h) hippocampal LTP and in LTD facilitated by novel object-place learning and recognition in mice<br>
+                            285:79-88. doi: 10.1016/j.bbr.2014.01.022. Epub 2014 Jan 27
+                        </p>
+                        <small class="text-muted">Hansen N, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24464942" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Cereb Cortex</h5>
+                            <small class="text-muted">2014 Jan 23</small>
+                        </div>
+                        <p class="mb-1">
+                            Locus Coeruleus Stimulation Facilitates Long-Term Depression in the Dentate Gyrus That Requires Activation of β-Adrenergic Receptors<br>
+                            [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Hansen N, Manahan-Vaughan D.</small>
+                    </a>                
+                </div>
+            </p>
+            <h4 id="list-item-4">2013</h4>
+            <p>
+                <div class="list-group">
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24304584" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex</h5>
+                        <small>2013 Dec 4</small>
+                        </div>
+                        <p class="mb-1">
+                            Modulation of Hippocampus-Prefrontal Cortex Synaptic Transmission and Disruption of Executive Cognitive Functions by MK-801<br>
+                            [Epub ahead of print]
+                        </p>
+                        <small>Blot K, Kimura SI, Bai J, Kemp A, Manahan-Vaughan D, Giros B, Tzavara E, Otani S.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24194716" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Synaptic Neurosci.</h5>
+                        <small class="text-muted">2013 Oct 29</small>
+                        </div>
+                        <p class="mb-1">
+                            Learning-facilitated synaptic plasticity occurs in the intermediate hippocampus in association with spatial learning<br>
+                            5:10. doi: 10.3389/fnsyn.2013.00010. eCollection 2013       
+                        </p>
+                        <small class="text-muted">Kenney J, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24132946" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Hippocampus</h5>
+                        <small class="text-muted">2014 Mar</small>
+                        </div>
+                        <p class="mb-1">
+                            Early age-dependent impairments of context-dependent extinction learning, object recognition, and object-place learning occur in rats.<br>
+                            24(3):270-9. doi: 10.1002/hipo.22220. Epub 2013 Nov 12.
+                        </p>
+                        <small class="text-muted">Wiescholleck V, Emma André MA, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24008582" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Cereb Cortex</h5>
+                            <small class="text-muted">2015 Feb</small>
+                        </div>
+                        <p class="mb-1">
+                            Spatial olfactory learning contributes to place field formation in the hippocampus<br>
+                            25(2):423-32. doi: 10.1093/cercor/bht239. Epub 2013 Sep 5.
+                        </p>
+                        <small class="text-muted">Zhang S, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23986697" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Front Synaptic Neurosci</h5>
+                            <small class="text-muted">2013 Aug 23</small>
+                        </div>
+                        <p class="mb-1">
+                            The temporoammonic input to the hippocampal CA1 region displays distinctly different synaptic plasticity compared to the Schaffer collateral input in vivo: significance for synaptic information processing<br>
+                            5:5. doi: 10.3389/fnsyn.2013.00005. eCollection 2013.
+                        </p>
+                        <small class="text-muted">Aksoy-Aksel A, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23878012" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2013 Dec</small>
+                        </div>
+                        <p class="mb-1">
+                            Hippocampal long-term depression in freely behaving mice requires the activation of beta-adrenergic receptors.<br>
+                            23(12):1299-308. doi: 10.1002/hipo.22168. Epub 2013 Sep 2
+                        </p>
+                        <small class="text-muted">Goh JJ, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23804412" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Hippocampus</h5>
+                            <small class="text-muted">2013 Jul 19</small>
+                        </div>
+                        <p class="mb-1">
+                            Spatial olfactory learning facilitates long-term depression in the hippocampus.<br>
+                            23(10):963-8. doi: 10.1002/hipo.22158
+                        </p>
+                        <small class="text-muted">André MA, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23644186" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Behav Brain Res</h5>
+                            <small class="text-muted">2013 Apr 30</small>
+                        </div>
+                        <p class="mb-1">
+                            Learning-facilitated long-term depression requires activation of the immediate early gene, c-fos, and is transcription dependent<br>
+                            doi:pii: S0166-4328(13)00244-1. 10.1016/j.bbr.2013.04.036. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Kemp A, Tischmeyer W, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23508474" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Front Integr Neurosci.</h5>
+                            <small class="text-muted">2013</small>
+                        </div>
+                        <p class="mb-1">
+                            Persistent deficits in hippocampal synaptic plasticity accompany losses of hippocampus-dependent memory in a rodent model of psychosis<br>
+                            7:12. doi: 10.3389/fnint.2013.00012. Epub 2013 Mar 15.
+                        </p>
+                        <small class="text-muted">Wiescholleck V, Manahan-Vaughan D.</small>
+                    </a> 
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23499810" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuropharmacology</h5>
+                            <small class="text-muted">2013 Mar 13</small>
+                        </div>
+                        <p class="mb-1">
+                            NMDA receptor-dependent synaptic plasticity in dorsal and intermediate hippocampus exhibits distinct frequency-dependent profiles.<br>
+                            doi:pii: S0028-3908(13)00074-9. 10.1016/j.neuropharm.2013.02.017. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Kenney J, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23459947" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Front Integr Neurosci.</h5>
+                            <small class="text-muted">2013</small>
+                        </div>
+                        <p class="mb-1">
+                            Differentiation in the protein synthesis-dependency of persistent synaptic plasticity in mossy fiber and associational/commissural CA3 synapses in vivo<br>
+                            7:10. doi: 10.3389/fnint.2013.00010. Epub 2013 Mar 1.
+                        </p>
+                        <small class="text-muted">Hagena H, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Neuropharmacology</h5>
+                            <small class="text-muted">2013 Jan 31</small>
+                        </div>
+                        <p class="mb-1">
+                            Long-lasting changes in hippocampal synaptic plasticity and cognition in an animal model of NMDA receptor dysfunction in psychosis<br>
+                            doi:pii: S0028-3908(13)00005-1. 10.1016/j.neuropharm.2013.01.001. [Epub ahead of print]
+                        </p>
+                        <small class="text-muted">Wiescholleck V, Manahan-Vaughan D.</small>
+                    </a>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23355815" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Front Integr Neurosci</h5>
+                            <small class="text-muted">2013</small>
+                        </div>
+                        <p class="mb-1">
+                            Synaptic depression in the CA1 region of freely behaving mice is highly dependent on afferent stimulation parameters.<br>
+                            7:1. doi: 10.3389/fnint.2013.00001. Epub 2013 Jan 25.
+                        </p>
+                        <small class="text-muted">Goh JJ, Manahan-Vaughan D.</small>
+                    </a>                
+                </div>
+            </p>
+            <h4 id="list-item-5">2012</h4>
+            <p>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/23284764" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">PLoS One</h5>
+                        <small class="text-muted">2012</small>
+                    </div>
+                    <p class="mb-1">
+                        Pannexin1 stabilizes synaptic plasticity and is needed for learning.<br>
+                        7(12):e51767. doi: 10.1371/journal.pone.0051767. Epub 2012 Dec 20. Erratum in: PLoS One. 2013;8(1). doi:10.1371/annotation/d0972416-5fef-4f89-9c09-cb4cb0c6295d
+                    </p>
+                    <small class="text-muted">Prochnow N, Abdulazim A, Kurtenbach S, Wildförster V, Dvoriantchikova G, Hanske J, Petrasch-Parwez E, Shestopalov VI, Dermietzel R, Manahan-Vaughan D, Zoidl G.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/23248592" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Behav Neurosci</h5>
+                        <small class="text-muted">2012</small>
+                    </div>
+                    <p class="mb-1">
+                        Brief environmental enrichment elicits metaplasticity of hippocampal synaptic potentiation in vivo.<br>
+                        6:85. doi: 10.3389/fnbeh.2012.00085. Epub 2012 Dec 14.
+                    </p>
+                    <small class="text-muted">Buschler A, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/23183712" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex</h5>
+                        <small class="text-muted">2012 Nov 25</small>
+                    </div>
+                    <p class="mb-1">
+                        Dopamine D1/D5 Receptors Mediate Informational Saliency that Promotes Persistent Hippocampal Long-Term Plasticity.<br>
+                        [Epub ahead of print]
+                    </p>
+                    <small class="text-muted">Hansen N, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22996287" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Hippocampus</h5>
+                        <small class="text-muted">2013 Feb</small>
+                    </div>
+                    <p class="mb-1">
+                        Endogenous hippocampal LTD that is enabled by spatial object recognition requires activation of NMDA receptors and the metabotropic glutamate receptor, mGlu5.<br>
+                        23(2):129-38. doi: 10.1002/hipo.22072. Epub 2012 Sep 21.
+                    </p>
+                    <small class="text-muted">Goh JJ, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22832854" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Transl Psychiatry</h5>
+                        <small class="text-muted">2012 Mar 13</small>
+                    </div>
+                    <p class="mb-1">
+                        PDE4 inhibition enhances hippocampal synaptic plasticity in vivo and rescues MK801-induced impairment of long-term potentiation and object recognition memory in an animal model of psychosis.<br>
+                        2:e89. doi: 10.1038/tp.2012.17.
+                    </p>
+                    <small class="text-muted">Wiescholleck V, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22743159" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Neuropharmacology</h5>
+                        <small class="text-muted">2013 Mar</small>
+                    </div>
+                    <p class="mb-1">
+                        Role of metabotropic glutamate receptors in persistent forms of hippocampal plasticity and learning.<br>
+                        66:65-81. doi: 10.1016/j.neuropharm.2012.06.005. Epub 2012 Jun 26.
+                    </p>
+                    <small class="text-muted">Mukherjee S, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22654741" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Integr Neurosci</h5>
+                        <small class="text-muted">2012</small>
+                    </div>
+                    <p class="mb-1">
+                        Learning-facilitated long-term depression and long-term potentiation at mossy fiber-CA3 synapses requires activation of β-adrenergic receptors.<br>
+                        6:23. doi: 10.3389/fnint.2012.00023. Epub 2012 May 23.
+                    </p>
+                    <small class="text-muted">Hagena H, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22510536" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex</h5>
+                        <small class="text-muted">2012 Apr 17</small>
+                    </div>
+                    <p class="mb-1">
+                        Spatial Object Recognition Enables Endogenous LTD that Curtails LTP in the Mouse Hippocampus.<br>
+                        [Epub ahead of print]
+                    </p>
+                    <small class="text-muted">Goh JJ, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22470488" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">PLoS One</h5>
+                        <small class="text-muted">2012</small>
+                    </div>
+                    <p class="mb-1">
+                        Identification of a novel signaling pathway and its relevance for GluA1 recycling.<br>
+                        7(3):e33889. doi: 10.1371/journal.pone.0033889. Epub 2012 Mar 21.
+                    </p>
+                    <small class="text-muted">Seebohm G, Neumann S, Theiss C, Novkovic T, Hill EV, Tavaré JM, Lang F, Hollmann M, Manahan-Vaughan D, Strutz-Seebohm N.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22038910" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex</h5>
+                        <small class="text-muted">2012 Sep</small>
+                    </div>
+                    <p class="mb-1">
+                        Dopamine D1/D5 receptors contribute to de novo hippocampal LTD mediated by novel spatial exploration or locus coeruleus activity.<br>
+                        22(9):2131-8. doi: 10.1093/cercor/bhr297. Epub 2011 Oct 29.
+                    </p>
+                    <small class="text-muted">Lemon N, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/21917740" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex</h5>
+                        <small class="text-muted">2012 Jul</small>
+                    </div>
+                    <p class="mb-1">
+                        Passive spatial perception facilitates the expression of persistent hippocampal long-term depression.<br>
+                        22(7):1614-21. doi: 10.1093/cercor/bhr233. Epub 2011 Sep 13.
+                    </p>
+                    <small class="text-muted">Kemp A, Manahan-Vaughan D.</small>
+                </a>
+            </p>
+            <h4 id="list-item-6">2011</h4>
+            <p>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/21493717" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex</h5>
+                        <small class="text-muted">2011 Nov</small>
+                    </div>
+                    <p class="mb-1">
+                        Learning-facilitated synaptic plasticity at CA3 mossy fiber and commissural-associational synapses reveals different roles in information processing.<br>
+                        21(11):2442-9. doi: 10.1093/cercor/bhq271. Epub 2011 Apr 14.
+                    </p>
+                    <small class="text-muted">Hagena H, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/21453290" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Eur J Neurosci</h5>
+                        <small class="text-muted">2011 May</small>
+                    </div>
+                    <p class="mb-1">
+                        Hippocampal long-term depression is enhanced, depotentiation is inhibited and long-term potentiation is unaffected by the application of a selective c-Jun N-terminal kinase inhibitor to freely behaving rats.<br>
+                        33(9):1647-55. doi: 10.1111/j.1460-9568.2011.07661.x. Epub 2011 Mar 31.
+                    </p>
+                    <small class="text-muted">Yang H, Courtney MJ, Martinsson P, Manahan-Vaughan D.</small>
+                </a>
+                <a href="http://www.ncbi.nlm.nih.gov/pubmed/21436876" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Front Behav Neurosci</h5>
+                        <small class="text-muted">2011 Mar 7</small>
+                    </div>
+                    <p class="mb-1">
+                        Strain-dependent variations in spatial learning and in hippocampal synaptic plasticity in the dentate gyrus of freely behaving rats.<br>
+                        5:7. doi: 10.3389/fnbeh.2011.00007
+                    </p>
+                    <small class="text-muted">Manahan-Vaughan D, Schwegler H.</small>
+                </a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Cereb Cortex.</h5>
+                        <small class="text-muted">2011 Mar</small>
+                    </div>
+                    <p class="mb-1">
+                        Involvement of the metabotropic glutamate receptor mGluR5 in NMDA receptor-dependent, learning-facilitated long-term depression in CA1 synapses.<br>
+                        21(3):501-9. doi: 10.1093/cercor/bhq093. Epub 2010 Jun 4
+                    </p>
+                    <small class="text-muted">Popkirov SG, Manahan-Vaughan D.</small>
+                </a>
+            </p>
+            <h4 id="list-item-7">2010</h4>
+            <p>...</p>
+            <h4 id="list-item-8">2009</h4>
+            <p>...</p>
+            <h4 id="list-item-9">2008</h4>
+            <p>...</p>
+            <h4 id="list-item-10">2007</h4>
+            <p>...</p>
+            <h4 id="list-item-11">2006</h4>
+            <p>...</p>
+            <h4 id="list-item-12">2005</h4>
+            <p>...</p>
+            <h4 id="list-item-13">2004</h4>
+            <p>...</p>
+            <h4 id="list-item-14">2003</h4>
+            <p>...</p>
+            <h4 id="list-item-15">2002</h4>
+            <p>...</p>
+            <h4 id="list-item-16">2001</h4>
+            <p>...</p>
+            <h4 id="list-item-17">2000</h4>
+            <p>...</p>
+            <h4 id="list-item-18">1999</h4>
+            <p>...</p>
+            <h4 id="list-item-19">1998</h4>
+            <p>...</p>
+            <h4 id="list-item-20">1997</h4>
+            <p>...</p>
+            <h4 id="list-item-21">1996</h4>
+            <p>...</p>
+            <h4 id="list-item-22">1995</h4>
+            <p>...</p>
+            <h4 id="list-item-23">1994</h4>
+            <p>...</p>
+    
+            </div>
+
+        </div>
+
+
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="group-right">
+        <div class="group-right-inner">
+          <div class="field-test">
+            <div class="published-wrapper">
+              <div class="published-label">Veröffentlicht</div>
+              Freitag<br>29. Mai 2020<br>15.30 Uhr
+            </div>
+          </div>
+          <div class="field-urheber-custom-">
+            <div class="urheber-wrapper">
+              <div class="urheber-label">Von</div>
+              André Hoffmann
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+  <div id="pre-footer-wrapper">
+    </div>
+    <div id="footer-wrapper">
+      <div id="footer-inner-wrapper">
+        <div id="footer-left">
+          <div id="footer-left-inner">
+            <a href="http://www.ruhr-uni-bochum.de">
+              <img class="rub-logo" src="https://news.rub.de/sites/all/themes/rub_news/logo.png" alt="Logo RUB"></a>
+              <div class="footer-text impressum impressum-logo">
+                <a href="http://www.ruhr-uni-bochum.de/impressum.htm">Impressum</a> |
+                <a href="http://www.ruhr-uni-bochum.de/kontakt">Kontakt</a>
+              </div>
+            </div>
+          </div>
+          <div id="footer-right">
+            <div id="footer-right-inner">
+              <div class="footer-text left">
+                <div>
+                  <strong>Ruhr-Universität Bochum</strong>
+                </div>
+                Universitätsstraße 150<br>
+                44801 Bochum<br><br>
+                <a target="_blank" href="http://www.ruhr-uni-bochum.de/impressum.htm">Impressum</a><br>
+                <a target="_blank" href="https://www.ruhr-uni-bochum.de/de/datenschutzhinweise">Datenschutz</a>
+              </div>
+              <div class="footer-text center-left">
+                <div>
+                  <strong>Schnellzugriff</strong>
+                </div>
+                <a target="_blank" href="http://uni.ruhr-uni-bochum.de/de/service-und-themen">Service und Themen</a><br>
+                <a target="_blank" href="http://www.rub.de/anreise">Anreise und Lagepläne</a><br>
+                <a target="_blank" href="https://notfall.rub.de/">Hilfe im Notfall</a><br>
+                <a target="_blank" href="https://www.stellenwerk-bochum.de/">Stellenangebote</a><br>
+              </div>
+              <div class="footer-text center-right">
+                <div>
+                  <strong>Social Media</strong>
+                </div>
+                <a target="_blank" href="https://www.facebook.com/RuhrUniBochum">Facebook</a><br>
+                <a target="_blank" href="https://twitter.com/ruhrunibochum">Twitter</a><br>
+                <a target="_blank" href="https://www.youtube.com/user/ruhruniversitaet/">YouTube</a><br>
+                <a target="_blank" href="https://instagram.com/ruhrunibochum">Instagram</a><br>
+              </div>
+              <div class="footer-text right">
+                <div class="right-inner">
+                  <a href="#" id="button-to-top">Seitenanfang <span class="arrow-up">y</span></a>
+                  <a href="#" id="button-contrast" class="shown">Kontrast <span class="arrow-up">N</span></a>
+                </div>
+              </div>
+              <div class="clear"></div>
+              <div class="footer-text impressum impressum-small">
+                <a target="_blank" href="http://www.ruhr-uni-bochum.de/impressum.htm">Impressum</a> |
+                <a target="_blank" href="http://www.ruhr-uni-bochum.de/kontakt">Kontakt</a>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://vmrz0088.vm.rub.de/rub-zaehler/" : "http://vmrz0088.vm.rub.de/rub-zaehler/");_paq.push(["setSiteId", "25"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+      <script src="https://news.rub.de/sites/all/libraries/shariff/build/shariff.min.js?q8rn2n"></script>
+
+</body>
+</html>

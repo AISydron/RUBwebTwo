@@ -1,0 +1,715 @@
+<html lang="de" class="js">
+<head>
+  <style>
+    body {transition: opacity ease-in 0.2s; }
+    body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; }
+  </style>
+
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 10.0, user-scalable = yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta data-embetty-server="https://d8-dev-0001.rub.de/embettygo">
+  <meta charset="utf-8">
+
+  <link rel="canonical" href="/web-cd/uebersichtsseiten">
+  <link rel="shortlink" href="/node/5937">
+
+  <title>Übersichtsseiten - Newsportal - Ruhr-Universität Bochum</title>
+
+  <link rel="shortcut icon" href="https://news.rub.de/sites/all/themes/rub_news/favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="shortcut icon" href="https://news.rub.de/sites/all/themes/rub_news/favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://news.rub.de/sites/all/themes/rub_news/touch-icons/apple-touch-icon-180x180.png">
+
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_luGOdbHUKTq5rw97Low9wcjWRKsAJta3YTCddgP17qg.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_8yw-RRgWNd8uOhk1DpvW_0HNJoGPvZm4N5W3xPl2gG4.css" media="all">
+  <link type="text/css" rel="stylesheet" href="https://news.rub.de/sites/default/files/css/css_XDi3lzI4bFDU0VUyQkZ614zP325idrS4-B6RGdNAeek.css" media="all">
+  <script type="text/javascript" defer="" async="" src="https://vmrz0088.vm.rub.de/rub-zaehler/piwik.js"></script><script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+  <script src="https://news.rub.de/misc/jquery-extend-3.4.0.js?v=1.10.2"></script>
+  <script src="https://news.rub.de/misc/jquery.once.js?v=1.2"></script>
+  <script src="https://news.rub.de/misc/drupal.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/default/files/languages/de_RGcVjyj6_ry5AAHackNGlWJQxaC8TyFTw2j_C6Ut5po.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/modules/matomo/matomo.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/libraries/flexslider/jquery.flexslider-min.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/flexslider-ini.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/embetty.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/js-cookie.js?q8rn2n"></script>
+  <script src="https://news.rub.de/sites/all/themes/rub_news/js/main.js?q8rn2n"></script>
+  <script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"rub_news","theme_token":"__4kEOQMiIocOQ9b1-JrI0WJYhaNCuGlaVN7zukMV8U","js":{"0":1,"\/\/code.jquery.com\/jquery-1.10.2.min.js":1,"1":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/de_RGcVjyj6_ry5AAHackNGlWJQxaC8TyFTw2j_C6Ut5po.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/themes\/rub_news\/js\/flexslider-ini.js":1,"sites\/all\/themes\/rub_news\/js\/embetty.js":1,"sites\/all\/themes\/rub_news\/js\/js-cookie.js":1,"sites\/all\/themes\/rub_news\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/webform_confirm_email\/webform_confirm_email.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/rub_news\/system.menus.css":1,"sites\/all\/themes\/rub_news\/system.messages.css":1,"sites\/all\/themes\/rub_news\/system.theme.css":1,"sites\/all\/themes\/rub_news\/css\/05-admin.css":1,"sites\/all\/themes\/rub_news\/css\/10-structure.css":1,"sites\/all\/themes\/rub_news\/css\/12-buttons-label-pager.css":1,"sites\/all\/themes\/rub_news\/css\/14-filter.css":1,"sites\/all\/themes\/rub_news\/css\/16-webforms.css.less":1,"sites\/all\/themes\/rub_news\/css\/18-forms.css":1,"sites\/all\/themes\/rub_news\/css\/20-main-menu.css":1,"sites\/all\/themes\/rub_news\/css\/24-sub-menu.css":1,"sites\/all\/themes\/rub_news\/css\/26-meta-menu.css":1,"sites\/all\/themes\/rub_news\/css\/28-footer.css":1,"sites\/all\/themes\/rub_news\/css\/30-teaser-a.css":1,"sites\/all\/themes\/rub_news\/css\/32-teaser-a-slider.css":1,"sites\/all\/themes\/rub_news\/css\/34-teaser-b.css":1,"sites\/all\/themes\/rub_news\/css\/36-teaser-c.css":1,"sites\/all\/themes\/rub_news\/css\/38-teaser-d.css":1,"sites\/all\/themes\/rub_news\/css\/40-teaser-e.css":1,"sites\/all\/themes\/rub_news\/css\/42-teaser-box-triple.css":1,"sites\/all\/themes\/rub_news\/css\/44-teaser-box-double.css":1,"sites\/all\/themes\/rub_news\/css\/60-node-article.css":1,"sites\/all\/themes\/rub_news\/css\/62-node-article-left.css":1,"sites\/all\/themes\/rub_news\/css\/64-node-article-right.css":1,"sites\/all\/themes\/rub_news\/css\/66-node-article-flex.css":1,"sites\/all\/themes\/rub_news\/css\/68-node-article-flex-downloads.css":1,"sites\/all\/themes\/rub_news\/css\/70-node-serie-dossier-galerie-medien.css":1,"sites\/all\/themes\/rub_news\/css\/72-mensa.css":1,"sites\/all\/themes\/rub_news\/css\/74-redaktion-mitglieder.css":1,"sites\/all\/themes\/rub_news\/css\/76-user-profile.css":1,"sites\/all\/themes\/rub_news\/css\/80-node-standard.css":1,"sites\/all\/themes\/rub_news\/css\/82-node-standard-standard-left.css":1,"sites\/all\/themes\/rub_news\/css\/86-misc.css":1,"sites\/all\/themes\/rub_news\/css\/88-misc-ex-strat.css":1,"sites\/all\/themes\/rub_news\/css\/92-graceful-degradation.css":1,"sites\/all\/themes\/rub_news\/css\/99-dev.css":1,"sites\/all\/themes\/rub_news\/css\/100-web-cd.css":1,"sites\/all\/themes\/rub_news\/css\/user.css":1,"public:\/\/fontyourface\/local_fonts\/RUB_Nepo_Icons-normal-normal\/stylesheet.css":1}},"matomo":{"trackMailto":1}});</script>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5937 node-type-system i18n-de section-web-cd role-anonymous-user" style="">
+
+  <div class="https://news.rub.de" id="base-url" style="display: none; visibility: hidden;"></div>
+  <p id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+  </p>
+  <div id="header-wrapper">
+    <div id="header-inner-wrapper">
+      <div id="header-left">
+        <div id="header-left-inner">
+          <a href="http://www.ruhr-uni-bochum.de"><img class="rub-logo" src="https://news.rub.de/sites/all/themes/rub_news/logo.png" alt="Logo RUB"></a>
+        </div>
+      </div>
+      <div id="header-center">
+        <div class="region region-main-menu">
+          <div id="block-system-main-menu" class="block block-system block-menu first last odd" role="navigation">
+            <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="https://www.ruhr-uni-bochum.de/de/informationen-zu-corona" target="_blank" class="menu__link">Corona-Infos</a></li>
+              <li class="menu__item is-leaf leaf"><a href="http://www.ruhr-uni-bochum.de/studium" class="menu__link">Studium</a></li>
+              <li class="menu__item is-leaf leaf"><a href="http://www.ruhr-uni-bochum.de/forschung/" class="menu__link">Forschung</a></li>
+              <li class="menu__item is-leaf leaf"><a href="https://transfer.ruhr-uni-bochum.de/de/transfer-der-rub" class="menu__link">Transfer</a></li>
+              <li class="menu__item is-leaf leaf"><a href="/" class="menu__link">News</a></li>
+              <li class="menu__item is-leaf leaf"><a href="http://www.ruhr-uni-bochum.de/universitaet/" class="menu__link">Über uns</a></li>
+              <li class="menu__item is-leaf last leaf"><a href="https://uni.ruhr-uni-bochum.de/de/fakultaeten" class="menu__link">Einrichtungen</a></li>
+            </ul>
+          </div>
+        </div>
+        <a id="nav-burger" href="#"></a>
+      </div>
+      <div id="header-right">&nbsp;</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div id="nav-bg"></div>
+  <div id="subnav-bg"></div>
+  <div id="meta-menu-wrapper">
+    <div id="sub-menu-and-content-wrapper">
+      <noscript>
+        <div id="no-script-wrapper">
+          <div id="no-script-inner">
+            <span>Um diese Webseite vollumfänglich nutzen zu können, benötigen Sie JavaScript.</span><br />
+            <a href="http://www.enable-javascript.com/de/" target="_blank">Hier finden Sie eine Anleitung, wie Sie JavaScript in Ihrem Browser einschalten.</a>
+          </div>
+        </div>
+      </noscript>
+      <div id="sub-menu">
+        <div id="sub-menu-inner">
+          <div id="menu-button">MENÜ</div>
+            <div id="wcd-logo-menu-wrapper">
+              <img id="wcd-logo-menu" src="https://news.rub.de/sites/default/files/muk-online-logo.jpg?itok=WFp8l7HE" alt="Logo">
+            </div>
+            <ul class="menu rub-startseite">
+              <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+              <li class="menu__item is-leaf leaf" id="rub-star-item"><a href="http://www.rub.de" class="menu__link">RUB-STARTSEITE</a></li>
+              <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+            </ul>
+            <div class="region region-sub-menu">
+              <div id="block-menu-menu-beispielmen-" class="block block-menu first last odd" role="navigation">
+                <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/web-cd/einleitung" class="menu__link">Web-CD</a></li>
+                  <li class="menu__item is-leaf is-active-trail leaf active-trail"><a href="/web-cd/uebersichtsseiten" class="menu__link is-active-trail active-trail active">Übersichtsseiten</a></li>
+                  <li class="menu__item is-leaf leaf"><a href="/web-cd/standardseiten" class="menu__link">Standardseiten</a></li>
+                  <li class="menu__item is-leaf leaf"><div class="menu__link separator"><div class="menu-separator-inner"></div></div></li>
+                  <li class="menu__item is-collapsed collapsed beispiel-items"><a href="http://#" class="menu__link">Link</a></li>
+                  <li class="menu__item is-expanded expanded beispiel-items"><a href="http://#" class="menu__link beispiel-items">Link</a>
+                    <ul class="menu">
+                      <li class="menu__item is-expanded first expanded level-2"><a href="http://#" class="menu__link">Link Ebene 2</a>
+                        <ul class="menu">
+                          <li class="menu__item is-leaf first last leaf level-3"><a href="http://#" class="menu__link">Link Ebene 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu__item is-leaf last leaf level-2"><a href="http://#" class="menu__link">Link Ebene 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu__item is-leaf leaf"><a href="http://#" class="menu__link">Link</a></li>
+                  <li class="menu__item is-leaf leaf">
+                    <div class="menu__link separator">
+                      <div class="menu-separator-inner"></div>
+                    </div>
+                  </li>
+                  <li class="menu__item is-leaf leaf"><a href="http://#" class="menu__link">Link</a></li>
+                  <li class="menu__item is-leaf leaf"><a href="http://#" class="menu__link">Link</a></li>
+                  <li class="menu__item is-leaf last leaf"><a href="http://#" class="menu__link">Link</a></li>
+                </ul>
+              </div>
+            </div>
+        <a id="subnav-arrow" href="#"></a>
+        </div>
+      </div>
+
+    <div id="content">
+      <div id="content-inner">
+        <div id="sender">
+          <div id="sender-inner">Absenderzeile</div>
+          </div>
+          <div id="messages-wrapper"></div>
+          <h1>Newsportal - Ruhr-Universität Bochum</h1>
+          <a id="main-content"></a>
+          <div class="web-cd-uebersicht-title-wrapper">
+            <h2 class="web-cd-uebersicht-title">Übersichtsseiten</h2>
+          </div>
+          <div class="teaser-row-wrapper">
+            <div class="super-highlight ">
+              <div class="item item-1">
+                <a href="/web-cd/teaser-a1" class="hover-layer">
+                  <div class="img-wrapper">
+                    <div class="img-wrapper-inner">
+                      <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a1.jpg?itok=ma7l906_" width="804" height="536" alt="<div>Web-CD: Teaser A1</div>">
+                    </div>
+                  </div>
+                  <div class="article-info-wrapper">
+                    <div class="article-info-wrapper-inner">
+                      <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                      <h2 class="headline">Teaser A1</h2>
+                      <div class="teaser-text">
+                        <p>Nutzen Sie den Teaser A1, um einen einzelnen Inhalt großflächig und prominent anzukündigen. Per Klick geht es zur Inhaltsseite.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hover-indicator"></div>
+                </a>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+
+          <div class="teaser-row-wrapper">
+            <div class="teaser-a flexslider">
+              <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                <ul class="slides" style="width: 1000%; transition-duration: 0s; transform: translate3d(-900px, 0px, 0px);">
+                  <li class="clone" aria-hidden="true" style="width: 900px; margin-right: 0px; float: left; display: block;">
+                    <a href="/web-cd/teaser-a2-slider-3" class="hover-layer">
+                      <div class="field-std-bild-artikel">
+                        <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-03.jpg?itok=W5nwesjr" width="804" height="536" alt="<div>Bildzeile</div>" draggable="false">
+                      </div>
+                      <div class="article-info-wrapper" style="min-height: 309px;">
+                        <div class="article-info-wrapper-inner">
+                          <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                          <h2 class="headline">Teaser A2 (Slider)</h2>
+                          <div class="teaser-text">
+                            <p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="menu-spacer"></div>
+                      <div class="hover-indicator"></div>
+                    </a>
+                  </li>
+                  <li class="flex-active-slide" data-thumb-alt="" style="width: 900px; margin-right: 0px; float: left; display: block;">
+                    <a href="/web-cd/teaser-a2-slider-1" class="hover-layer">
+                      <div class="field-std-bild-artikel">
+                        <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-01.jpg?itok=eq2zwBJx" width="804" height="536" alt="<div>Bildzeile</div>" draggable="false">
+                      </div>
+                      <div class="article-info-wrapper" style="min-height: 309px;">
+                        <div class="article-info-wrapper-inner">
+                          <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)
+                          </div>
+                            <h2 class="headline">Teaser A2 (Slider)</h2>
+                            <div class="teaser-text">
+                              <p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="menu-spacer"></div>
+                      <div class="hover-indicator"></div>
+                    </a>
+                  </li>
+                  <li data-thumb-alt="" style="width: 900px; margin-right: 0px; float: left; display: block;">
+                    <a href="/web-cd/teaser-a2-slider-2" class="hover-layer">
+                      <div class="field-std-bild-artikel">
+                        <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-02.jpg?itok=HsLzwKEB" width="804" height="536" alt="<div>Bildzeile</div>" draggable="false">
+                      </div>
+                      <div class="article-info-wrapper" style="min-height: 309px;">
+                        <div class="article-info-wrapper-inner">
+                          <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)
+                          </div>
+                            <h2 class="headline">Teaser A2 (Slider)</h2>
+                            <div class="teaser-text">
+                              <p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="menu-spacer"></div>
+                      <div class="hover-indicator"></div>
+                    </a>
+                  </li>
+                  <li data-thumb-alt="" style="width: 900px; margin-right: 0px; float: left; display: block;">
+                    <a href="/web-cd/teaser-a2-slider-3" class="hover-layer">
+                      <div class="field-std-bild-artikel">
+                        <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-03.jpg?itok=W5nwesjr" width="804" height="536" alt="<div>Bildzeile</div>" draggable="false">
+                       </div>
+                       <div class="article-info-wrapper" style="min-height: 309px;">
+                         <div class="article-info-wrapper-inner">
+                           <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)
+                           </div>
+                           <h2 class="headline">Teaser A2 (Slider)</h2>
+                           <div class="teaser-text"><p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                           </div>
+                         </div>
+                       </div>
+                       <div class="menu-spacer"></div>
+                       <div class="hover-indicator"></div>
+                     </a>
+                   </li>
+                   <li class="clone" aria-hidden="true" style="width: 900px; margin-right: 0px; float: left; display: block;">
+                     <a href="/web-cd/teaser-a2-slider-1" class="hover-layer">
+                       <div class="field-std-bild-artikel">
+                         <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-01.jpg?itok=eq2zwBJx" width="804" height="536" alt="<div>Bildzeile</div>" draggable="false">
+                       </div>
+                       <div class="article-info-wrapper" style="min-height: 309px;">
+                         <div class="article-info-wrapper-inner">
+                           <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                           <h2 class="headline">Teaser A2 (Slider)</h2>
+                           <div class="teaser-text"><p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                           </div>
+                         </div>
+                       </div>
+                       <div class="menu-spacer"></div>
+                       <div class="hover-indicator"></div>
+                     </a>
+                   </li>
+                 </ul>
+               </div>
+               <ol class="flex-control-nav flex-control-paging">
+                 <li><a href="#" class="flex-active">1</a></li><li><a href="#">2</a></li>
+                 <li><a href="#">3</a></li>
+               </ol>
+               <ul class="flex-direction-nav">
+                 <li class="flex-nav-prev"><a class="flex-prev" href="#">Previous</a></li>
+                 <li class="flex-nav-next"><a class="flex-next" href="#">Next</a></li>
+               </ul>
+             </div>
+             <div class="teaser-a flexslider-clone"><div class="flex-viewport t-a-clone">
+               <ul class="slides">
+                 <li>
+                   <a href="/web-cd/teaser-a2-slider-1" class="hover-layer">
+                     <div class="field-std-bild-artikel">
+                       <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-01.jpg?itok=eq2zwBJx" width="804" height="536" alt="<div>Bildzeile</div>">
+                     </div>
+                     <div class="article-info-wrapper">
+                       <div class="article-info-wrapper-inner">
+                         <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                         <h2 class="headline">Teaser A2 (Slider)</h2>
+                         <div class="teaser-text"><p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="menu-spacer"></div>
+                     <div class="hover-indicator"></div>
+                   </a>
+                 </li>
+                 <li>
+                   <a href="/web-cd/teaser-a2-slider-2" class="hover-layer">
+                     <div class="field-std-bild-artikel">
+                       <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-02.jpg?itok=HsLzwKEB" width="804" height="536" alt="<div>Bildzeile</div>">
+                     </div>
+                     <div class="article-info-wrapper">
+                       <div class="article-info-wrapper-inner">
+                         <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                         <h2 class="headline">Teaser A2 (Slider)</h2>
+                         <div class="teaser-text"><p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="menu-spacer"></div>
+                     <div class="hover-indicator"></div>
+                   </a>
+                 </li>
+                 <li>
+                   <a href="/web-cd/teaser-a2-slider-3" class="hover-layer">
+                     <div class="field-std-bild-artikel">
+                       <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-a2-03.jpg?itok=W5nwesjr" width="804" height="536" alt="<div>Bildzeile</div>">
+                     </div>
+                     <div class="article-info-wrapper">
+                       <div class="article-info-wrapper-inner">
+                         <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                         <h2 class="headline">Teaser A2 (Slider)</h2>
+                         <div class="teaser-text">
+                           <p>Nutzen Sie den Teaser A2, um mehrere Inhalte großflächig und in einem Slider anzukündigen. Per Klick geht es zur Inhaltsseite. Tipp: User sehen immer nur eine ihrer drei angekündigten Detailseiten. Wollen Sie drei sehr wichtige Inhaltsseiten ankündigen, verwenden Sie besser ein anderes Teaserformat.</p>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="menu-spacer"></div>
+                     <div class="hover-indicator"></div>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </div>
+
+
+         <div class="teaser-row-wrapper">
+           <div class="highlight ">
+             <div class="item item-1">
+               <a href="/web-cd/teaser-b1-1" class="hover-layer">
+                 <div class="img-wrapper">
+                   <div class="img-wrapper-inner">
+                     <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-b1-01.jpg?itok=tBeHh_F9" width="804" height="536" alt="<div>Bildzeile</div>">
+                   </div>
+                 </div>
+                 <div class="article-info-wrapper">
+                   <div class="article-info-wrapper-inner">
+                     <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                     <h2 class="headline">Teaser B1</h2>
+                     <div class="teaser-text">
+                       <p>Nutzen Sie den Teaser B1, um zwei Inhalte in der gleichen Größe nebeneinander anzukündigen. Per Klick geht es zur jeweiligen Inhaltsseite.</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="hover-indicator"></div>
+               </a>
+             </div>
+             <div class="item item-2">
+               <a href="/web-cd/teaser-b1-2" class="hover-layer">
+                 <div class="img-wrapper">
+                   <div class="img-wrapper-inner">
+                     <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-b1-02.jpg?itok=gNh1X29E" width="804" height="536" alt="<div>Bildzeile</div>">
+                   </div>
+                 </div>
+                 <div class="article-info-wrapper">
+                   <div class="article-info-wrapper-inner">
+                     <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                     <h2 class="headline">Teaser B1</h2>
+                     <div class="teaser-text">
+                       <p>Nutzen Sie den Teaser B1, um zwei Inhalte in der gleichen Größe nebeneinander anzukündigen. Per Klick geht es zur jeweiligen Inhaltsseite.</p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="hover-indicator"></div>
+               </a>
+             </div>
+             <div class="clear"></div>
+           </div>
+         </div>
+
+         <div class="teaser-row-wrapper">
+           <div class="standard-web-cd standard">
+             <div class="double-column">
+               <div class="item item-1">
+                 <a href="/web-cd/teaser-b4-1" class="hover-layer">
+                   <div class="img-wrapper">
+                     <div class="img-wrapper-inner">
+                      <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-b4-01.jpg?itok=FyzEqXqf" width="804" height="536" alt="<div>Bildzeile</div>">
+                    </div>
+                  </div>
+                  <div class="article-info-wrapper">
+                    <div class="article-info-wrapper-inner">
+                      <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                      <h2 class="headline">Teaser B4</h2>
+                    </div>
+                  </div>
+                  <div class="hover-indicator"></div>
+                </a>
+              </div>
+              <div class="item item-2">
+                <a href="/web-cd/teaser-b4-2" class="hover-layer">
+                  <div class="img-wrapper">
+                    <div class="img-wrapper-inner">
+                      <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-b4-02.jpg?itok=FuPNPSwT" width="804" height="536" alt="<div>Bildzeile</div>">
+                    </div>
+                  </div>
+                  <div class="article-info-wrapper">
+                    <div class="article-info-wrapper-inner">
+                      <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                      <h2 class="headline">Teaser B4</h2>
+                    </div>
+                  </div>
+                  <div class="hover-indicator"></div>
+                </a>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="teaser-row-wrapper standard">
+          <div class="teaser-box double">
+            <div class="teaser-box-header">Teaser C</div>
+            <div class="item item-1">
+              <a href="/web-cd/teaser-c-1" class="hover-layer">
+                <div class="img-wrapper">
+                  <div class="img-wrapper-inner">
+                    <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-c-02.jpg?itok=HPDhFhdQ" width="804" height="536" alt="<div>Bildzeile</div>">
+                  </div>
+                </div>
+                <div class="article-info-wrapper">
+                  <div class="article-info-wrapper-inner">
+                    <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                    <h2 class="headline">Teaser C</h2>
+                    <div class="teasertext">Nutzen Sie den Teaser C, um zwei kleine Teaserboxen in einer Fläche zusammenzufassen und mit einer Überschrift zu versehen. Per Klick geht es zur jeweiligen Inhaltsseite.
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item item-2">
+              <a href="/web-cd/teaser-c-2" class="hover-layer">
+                <div class="img-wrapper">
+                  <div class="img-wrapper-inner">
+                    <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-c-03.jpg?itok=0c7FlV5d" width="804" height="536" alt="<div>Bildzeile</div>">
+                  </div>
+                </div>
+                <div class="article-info-wrapper">
+                  <div class="article-info-wrapper-inner">
+                    <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                    <h2 class="headline">Teaser C</h2>
+                    <div class="teasertext">Nutzen Sie den Teaser C, um zwei kleine Teaserboxen in einer Fläche zusammenzufassen und mit einer Überschrift zu versehen. Per Klick geht es zur jeweiligen Inhaltsseite.
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <div class="teaser-row-wrapper web-cd">
+          <div class="teaser-box triple">
+            <div class="teaser-box-header">Teaser D</div>
+            <div class="item item-1">
+              <a href="/web-cd/teaser-d-1" class="hover-layer">
+                <div class="img-wrapper">
+                  <div class="img-wrapper-inner">
+                    <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-d-01.jpg?itok=tk6cTIya" width="804" height="536" alt="<div>Bildzeile</div>">
+                    <div class="triple-name-wrapper">
+                      <span class="triple-name-label">Label</span>
+                      <span class="triple-name">Teaser D</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="article-info-wrapper">
+                  <div class="article-info-wrapper-inner">
+                    <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                    <h2 class="headline">Teaser D</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item item-2"><a href="/web-cd/teaser-d-2" class="hover-layer">
+              <div class="img-wrapper">
+                <div class="img-wrapper-inner">
+                  <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-d-02.jpg?itok=Yi1FKsFB" width="804" height="536" alt="<div>Bildzeile</div>">
+                  <div class="triple-name-wrapper">
+                    <span class="triple-name-label">Label</span><span class="triple-name">Teaser D</span>
+                  </div>
+                </div>
+              </div>
+              <div class="article-info-wrapper">
+                <div class="article-info-wrapper-inner">
+                  <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                  <h2 class="headline">Teaser D</h2>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="item item-3">
+            <a href="/web-cd/teaser-d-3" class="hover-layer">
+              <div class="img-wrapper">
+                <div class="img-wrapper-inner">
+                  <img src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-d-03.jpg?itok=CAE3hFcP" width="804" height="536" alt="<div>Bildzeile</div>">
+                  <div class="triple-name-wrapper">
+                    <span class="triple-name-label">Label</span>
+                    <span class="triple-name">Teaser D</span>
+                  </div>
+                </div>
+              </div>
+              <div class="article-info-wrapper">
+                <div class="article-info-wrapper-inner">
+                  <div class="dachzeile">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                  <h2 class="headline">Teaser D</h2>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="teaser-row-wrapper web-cd">
+        <div class="teaser-row-wrapper full">
+          <div class="teaser-d galerie">
+            <a href="/web-cd/teaser-e" class="hover-layer">
+              <div class="img-wrapper">
+                <div class="img-wrapper-inner">
+                  <img class="" src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/teaser-e-02.jpg?itok=McVK-5gb" width="804" height="536" alt="">
+                  <div class="img-wrapper-overlay trans"></div>
+                </div>
+              </div>
+              <div class="article-info-wrapper">
+                <div class="article-info-wrapper-inner">
+                  <h2 class="headline">Teaser E</h2>
+                  <div class="teasertext"><p>Nutzen Sie die Aktionsfläche um plakativ auf eine Inhaltsseite zu verweisen.</p>
+                  </div>
+                  <div class="button-arrow-wrapper no-link">
+                    <span class="button-arrow-arrow"><!-- --></span>
+                    <span class="button-arrow-text">Mehr Informationen</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="teaser-row-wrapper full">
+        <div class="teaser-d mensa">
+          <a href="/web-cd/verweisflaeche-a" class="hover-layer">
+            <div class="img-wrapper">
+              <div class="img-wrapper-inner">
+                <img class="" src="https://news.rub.de/sites/default/files/styles/nepo_teaser/public/audiforum08.jpg?itok=YwObk5IG" width="804" height="536" alt="">
+              </div>
+            </div>
+            <div class="article-info-wrapper">
+              <div class="article-info-wrapper-inner">
+                <h2 class="headline">Verweisfläche A</h2>
+                <div class="button-arrow-wrapper no-link">
+                  <span class="button-arrow-arrow"><!-- --></span>
+                  <span class="button-arrow-text">Mehr Informationen</span>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </a>
+        </div>
+      </div>
+
+
+    <div class="teaser-row-wrapper full">
+      <div class="button-further web-cd-vwf-b start">
+        <a href="/web-cd/verweisflaeche-b" class="hover-layer">
+          <div class="img-wrapper">
+            <div class="img-wrapper-inner">&nbsp;</div>
+          </div>
+          <div class="article-info-wrapper">
+            <div class="article-info-wrapper-inner">
+              <div class="headline">Verweisfläche B</div>
+              <div class="button-arrow-wrapper no-link">
+                <span class="button-arrow-arrow"><!-- --></span>
+                <span class="button-arrow-text">Mehr Informationen</span>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="teaser-row-wrapper web-cd-uebersicht-title-wrapper">
+      <div class="red-mitglieder-wrapper">
+        <h2>Text</h2>
+        <div class="top-description-wrapper tdw-type-2" style="float: none">
+          <p>Der Paragraph „Text“ dient auf Übersichtsseiten dazu, kurze Informationsblöcke darzustellen. Bitte nutzen Sie für lange Textelemente immer die Standardseite.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="teaser-row-wrapper full">
+      <div class="button-further web-cd-standard start">
+        <a href="/web-cd/standardseiten" class="hover-layer">
+          <div class="img-wrapper">
+            <div class="img-wrapper-inner">&nbsp;</div>
+          </div>
+          <div class="article-info-wrapper">
+            <div class="article-info-wrapper-inner">
+              <div class="headline">Standardseiten</div>
+              <div class="button-arrow-wrapper no-link">
+                <span class="button-arrow-arrow"><!-- --></span>
+                <span class="button-arrow-text">Beispielseite</span>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </a>
+      </div>
+    </div>
+    <div class="last-child">
+      <div class="teaser-row-wrapper full">
+        <div class="button-further web-cd-start start">
+          <a href="/web-cd/einleitung" class="hover-layer">
+            <div class="img-wrapper">
+              <div class="img-wrapper-inner">&nbsp;</div>
+            </div>
+            <div class="article-info-wrapper">
+              <div class="article-info-wrapper-inner">
+                <div class="headline">RUB-Leitfaden „Webseiten“ (Beta)</div>
+                <div class="button-arrow-wrapper no-link">
+                  <span class="button-arrow-arrow"><!-- --></span>
+                  <span class="button-arrow-text">Einleitung</span>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="pre-footer-wrapper"></div>
+<div id="footer-wrapper">
+  <div id="footer-inner-wrapper">
+    <div id="footer-left">
+      <div id="footer-left-inner">
+        <a href="http://www.ruhr-uni-bochum.de">
+          <img class="rub-logo" src="https://news.rub.de/sites/all/themes/rub_news/logo.png" alt="Logo RUB">
+        </a>
+        <div class="footer-text impressum impressum-logo">
+          <a href="http://www.ruhr-uni-bochum.de/impressum.htm">Impressum</a> |
+          <a href="http://www.ruhr-uni-bochum.de/kontakt">Kontakt</a>
+        </div>
+      </div>
+    </div>
+    <div id="footer-right">
+      <div id="footer-right-inner">
+        <div class="footer-text left">
+          <div><strong>Ruhr-Universität Bochum</strong></div>
+          Universitätsstraße 150<br>
+          44801 Bochum<br><br>
+          <a target="_blank" href="http://www.ruhr-uni-bochum.de/impressum.htm">Impressum</a><br>
+          <a target="_blank" href="https://www.ruhr-uni-bochum.de/de/datenschutzhinweise">Datenschutz</a>
+        </div>
+        <div class="footer-text center-left">
+          <div><strong>Schnellzugriff</strong></div>
+          <a target="_blank" href="http://uni.ruhr-uni-bochum.de/de/service-und-themen">Service und Themen</a><br>
+          <a target="_blank" href="http://www.rub.de/anreise">Anreise und Lagepläne</a><br>
+          <a target="_blank" href="https://notfall.rub.de/">Hilfe im Notfall</a><br>
+          <a target="_blank" href="https://www.stellenwerk-bochum.de/">Stellenangebote</a><br>
+        </div>
+        <div class="footer-text center-right">
+          <div><strong>Social Media</strong></div>
+          <a target="_blank" href="https://www.facebook.com/RuhrUniBochum">Facebook</a><br>
+          <a target="_blank" href="https://twitter.com/ruhrunibochum">Twitter</a><br>
+          <a target="_blank" href="https://www.youtube.com/user/ruhruniversitaet/">YouTube</a><br>
+          <a target="_blank" href="https://instagram.com/ruhrunibochum">Instagram</a><br>
+        </div>
+        <div class="footer-text right">
+          <div class="right-inner">
+            <a href="#" id="button-to-top">Seitenanfang <span class="arrow-up">y</span></a>
+            <a href="#" id="button-contrast" class="shown">Kontrast <span class="arrow-up">N</span></a>
+          </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="footer-text impressum impressum-small">
+          <a target="_blank" href="http://www.ruhr-uni-bochum.de/impressum.htm">Impressum</a> |
+          <a target="_blank" href="http://www.ruhr-uni-bochum.de/kontakt">Kontakt</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</div>
+    <script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://vmrz0088.vm.rub.de/rub-zaehler/" : "http://vmrz0088.vm.rub.de/rub-zaehler/");_paq.push(["setSiteId", "25"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();</script>
+
+
+
+</body>
+</html>
